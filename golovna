@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MkTur</title>
+<style type="text/css">
+            img {
+            max-width: 100%;
+        }
+          @media (max-width: 800px){
+            body {
+            grid-template-columns: 1fr minmax(350px, 65%) 1fr;
+        }
+        }
+        article{
+            overflow-x: auto;
+            display:  block;
+            font-family: "Monotype Corsiva";
+            font-size: 25px;
+
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        #siteHeader {
+            background-image: url("https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Nikolaev-2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        main {
+            background: #132226;
+        }
+        aside{
+            background-image: url("https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Nikolaev-2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        footer{
+            background: #132226;
+            text-align: center;  
+        }
+        body {
+            display: grid;
+            grid-template-areas:
+            "header header header"
+            "sidebar_left main sidebar_right"
+            "footer footer footer";
+            grid-template-columns: 1fr 1000px 1fr;
+            grid-template-rows: auto;
+        }
+        #siteHeader {
+            grid-area: header;
+            font-weight: bold;
+        }
+        main {
+            grid-area: main;
+        }
+        #footer {
+            grid-area: footer;
+        }
+        #leftSidebar{
+            grid-area: sidebar_left;
+        }
+        #rightSidebar{
+            grid-area: sidebar_right;
+        }
+        article header {
+            font-weight: bold;
+            text-decoration: italic;
+            color: yellow;
+            text-align: center;
+            margin: 10px 0;
+        }
+        body header{
+            display: grid;
+            grid-template-areas:
+            "c1 c2 c3 c4 c5"
+            grid-template-columns: repeat(5, 1fr);
+        }
+        @import url('https://fonts.googleapis.com/css?family=Arimo');
+        .top-menu {
+            padding: 20px;
+        }
+        .top-menu:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .menu-main {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+        .menu-main li {display: inline-block;}
+        .menu-main a {
+            text-decoration: none;
+            display: block;
+            position: relative;
+            line-height: 61px;
+            padding-left: 20px;
+            font-size: 22px;
+            letter-spacing: 2px;
+            font-family: 'Arimo', sans-serif;
+            font-weight: bold;
+            color: yellow;
+            transition:.3s linear;
+        }
+        .menu-main a:before {
+            content: "";
+            width: 9px;
+            height: 9px;
+            background: yellow;
+            position: absolute;
+            left: 50%;
+            transform: rotate(45deg) translateX(6.5px);
+            opacity: 0;file:///C:/Users/Admin/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/papka/1.JPG;
+            transition: .3s linear;
+        }
+        .menu-main a:hover:before {opacity: 1;}
+        .top-menu {
+            text-align: center;
+            padding: 20px 0 0 0;
+        }
+        .menu-main a {padding: 0 10px;}
+        .menu-main a:before {transform: rotate(45deg) translateX(-6px);}
+        .container {
+            margin: 0 auto;
+            width: auto;
+        }
+        .block_img {
+            padding: 10px;
+            display: grid;
+            height: auto;
+            grid-gap: 10px;
+            grid-template-areas: 
+            "box1 box2"
+            "box3 box4"
+        }
+        .img_box img{border-radius: 30px 0 30px 0;}
+        .box1 {
+            grid-area: box1;
+        }
+        .box2 {
+            grid-area: box2;
+        }
+        .box3 {
+            grid-area: box3;
+        }
+        .box4 {
+            grid-area: box4;
+        }
+</style>
+</head>
+<body>
+    <header id="siteHeader">
+        <nav class="top-menu">
+            <ul class="menu-main">
+                <li><a href="golovna.html">Головна</a></li>
+                 <li><a href="reestraciya.html">Реєстрація</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <header>Екскурсія по дивовижній природі Миколаївщини</header>
+            <header>Трикрати</header>
+            <p>Село Трикрати розташоване у басейні р. Мертвовод, на її притоці Арбузинці, в 15 км на північ від Вознесенська. Засноване у 1800 році. У Трикратах розташований справжній оазис для мандрівників - Трикратський ліс, з великою кількістю стежок і мостів, перекинутих через рукава річки, за що і отримав назву «Лабіринт». Ліс заклав у 1819 році граф Віктор Скаржинський. Зараз урочище займає площу 247 гектарів. Найбільша цінність урочища - старі могутні 120-200-літні дуби, їх більше 350. Граф В.П.Скаржинський був одним із засновників степових і полезахисних лісонасаджень, що висаджувалися не тільки по схилах ярів, а й між гранітними скелями.
+Згодом парк переріс у рукотворний ліс, який отримав назву від села Трикрати. Ліс складається з двох урочищ: "Василева пасіка" та "Лабіринт". Обидва вони охороняються законом, а з 1972 року отримали категорію державних заповідних урочищ. Через Трикратський ліс протікає річка Арбузинка. Масив Трикратського лісу ділиться на 3 частини, які непомітно переходять один в одний. У самому центрі його знаходиться ставок - улюблене місце рибалок.</p>
+<div class="container">
+        <div class="block_img">
+            <div class="img_box box1">
+                <img src="https://anga.ua/files/anga/reg_images/trikrjpg.jpg"    alt="Зображення">
+            </div>
+            <div class="img_box box2">
+                <img src="https://anga.ua/files/anga/reg_images/aktov_kanyon.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box3">
+                <img src="https://anga.ua/files/anga/reg_images/fullsize_1_.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box4">
+                <img src="https://anga.ua/files/anga/reg_images/2011-05-29_18-56-10_img_7101.jpg" alt="Зображення">
+            </div>
+        </div>
+    </div>
+<p> У складі лісу також розташовані урочища «Літній Хутір Скаржинського» та «Миронів Сад» - єдине місце у Миколаївській області, де мешкають колонії сірих чапель. Зараз урочище «Лабіринт» - зона рекреації з флорою і фауною, степами та лісами, з трьохкілометровою прогулянковою стежкою і багатьма упорядкованими місцями відпочинку. Прогулянка уздовж річки і через свіжі діброви сприяє активному відпочинку. А тінь від розлогих дубів в контрасті з сонячними полянами надихає до художньої творчості та фотозйомки.
+Тут же розташувався унікальний об'єкт - старий маєток XVIII століття з родовим гербом Скаржинських. У 1778 році тут народився відомий ботанік, граф Віктор Скаржинський. У своєму маєтку він організував передове на ті часи господарство, заклав помологічний сад, дендрарій, плодовий сад з виноградником і лісові розсадники, акліматизував ряд деревних порід і чагарників Південної Америки і Західної Європи.</p>
+        </article>
+        <article>
+            <header>Актовський каньйон</header>
+            <p>Актовський каньйон - це каньйон, розташований на річці Мертвовод поблизу села Актово Вознесенського району Миколаївської області, неподалік села Петропавлівка Братського району. Площа каньйону близько 250 га, яке глибина досягає 40-50 метрів.
+Це місце є унікальним комплексом лісової та водної екосистем з ансамблем скель і гранітних валунів. Кажуть, що Актовський каньйон єдиний такий у Європі. Також він злегка нагадує знамениті каньйони Північної Америки. До води ведуть прямовисні гранітні скелі, висотою близько 50 метрів. Складний рельєф місцевості не дає сплавлятися річкою, але сюди з'їжджаються екстремали та скелелази з усіх куточків Європи. Актовський каньйон входить до складу регіонального ландшафтного парку «Гранітно-Степове Побужжя», створеного в 1994 році.</p>
+<div class="container">
+        <div class="block_img">
+            <div class="img_box box1">
+                <img src="https://ua.igotoworld.com/frontend/webcontent/websites/1/images/gallery/8930_800x600_akt-kan-tesh-yazik.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box2">
+                <img src="https://ua.igotoworld.com/frontend/webcontent/websites/1/images/gallery/8931_800x600_img_3248.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box3">
+                <img src="https://anga.ua/files/anga/reg_images/fullsize_1_.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box4">
+                <img src="https://relax.com.ua/wp-content/media/kiew/2018/01/aktovskiy-kanon2.jpg" alt="Зображення">
+            </div>
+        </div>
+    </div>
+        </article>
+        <article>
+            <header>Ольвія</header>
+            <p>Антична Ольвія, що розміщена на території сучасної Миколаївської області, складає невід’ємну частину культурної спадщини України. Вона була однією з чотирьох найбільш крупних античних держав Північного Причорномор’я. В перекладі з давньогрецької „Ольвія” означає „Щаслива”. Це офіційна назва міста, засвідчена у виданих ним декретах, написах на монетах, в більшості літературних джерел.
+Ольвія була заснована грецькими переселенцями на правому березі Гіпанісу (нині – Бузького лиману) у II чверті VI ст. до н.е. і проіснувала майже тисячу років, до 70-х років IV ст. н.е.  В часи розквіту територія міста складала   50 – 55 га., його некрополя 500 га., а по берегах Бузького, Дніпровського та Березанського лиманів, розміщались півтори сотні сільських поселень, що складали сільськогосподарську округу – хору Ольвії. </p>
+<div class="container">
+        <div class="block_img">
+            <div class="img_box box1">
+                <img src="https://www.mk-oblrada.gov.ua/UserFiles/Image/VIZNACHNI/OLVIA/3.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box2">
+                <img src="https://www.mk-oblrada.gov.ua/UserFiles/Image/VIZNACHNI/OLVIA/4.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box3">
+                <img src="https://www.mk-oblrada.gov.ua/UserFiles/Image/VIZNACHNI/OLVIA/8.jpg" alt="Зображення">
+            </div>
+            <div class="img_box box4">
+                <img src="https://www.mk-oblrada.gov.ua/UserFiles/Image/VIZNACHNI/OLVIA/7.jpg" alt="Зображення">
+            </div>
+        </div>
+    </div>
+        </article>
+    </main>
+    <aside id="leftSidebar"></aside>
+    <aside id="rightSidebar"></aside>
+    <footer id="footer">
+       <h3 align="center" font-weight="bolder">&copy; MkTur@gmail.com</h3>
+    </footer>
+</body>
+</html>
+
